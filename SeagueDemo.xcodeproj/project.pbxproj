@@ -14,6 +14,9 @@
 		63837B072331FBCF003782A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63837B052331FBCF003782A2 /* LaunchScreen.storyboard */; };
 		63837B122331FBCF003782A2 /* SeagueDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63837B112331FBCF003782A2 /* SeagueDemoTests.swift */; };
 		63837B1D2331FBCF003782A2 /* SeagueDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63837B1C2331FBCF003782A2 /* SeagueDemoUITests.swift */; };
+		63837B2D233225AE003782A2 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63837B2C233225AE003782A2 /* SignUpController.swift */; };
+		63837B2F233225DB003782A2 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63837B2E233225DB003782A2 /* SignInController.swift */; };
+		63837B3123322613003782A2 /* HomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63837B3023322613003782A2 /* HomeScreenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		63837B182331FBCF003782A2 /* SeagueDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeagueDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63837B1C2331FBCF003782A2 /* SeagueDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeagueDemoUITests.swift; sourceTree = "<group>"; };
 		63837B1E2331FBCF003782A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63837B2C233225AE003782A2 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		63837B2E233225DB003782A2 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		63837B3023322613003782A2 /* HomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				63837AFC2331FBCE003782A2 /* AppDelegate.swift */,
 				63837AFE2331FBCE003782A2 /* ViewController.swift */,
 				63837B002331FBCE003782A2 /* Main.storyboard */,
-				63837B032331FBCF003782A2 /* Assets.xcassets */,
 				63837B052331FBCF003782A2 /* LaunchScreen.storyboard */,
+				63837B032331FBCF003782A2 /* Assets.xcassets */,
 				63837B082331FBCF003782A2 /* Info.plist */,
+				63837B2C233225AE003782A2 /* SignUpController.swift */,
+				63837B2E233225DB003782A2 /* SignInController.swift */,
+				63837B3023322613003782A2 /* HomeScreenController.swift */,
 			);
 			path = SeagueDemo;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63837AFF2331FBCE003782A2 /* ViewController.swift in Sources */,
+				63837B3123322613003782A2 /* HomeScreenController.swift in Sources */,
 				63837AFD2331FBCE003782A2 /* AppDelegate.swift in Sources */,
+				63837B2F233225DB003782A2 /* SignInController.swift in Sources */,
+				63837B2D233225AE003782A2 /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
