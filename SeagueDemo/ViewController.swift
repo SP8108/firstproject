@@ -35,6 +35,7 @@ class ViewController: UIViewController {
             }
             vc.signupCounter = {(val: String) -> Void in
                 self.countSignup = self.countSignup + 1
+                self.LastSignUp_Label.text = "LastSignUp : " + val
                 self.TotalSignUp_Label.text = "TotalSignUp : " + String(self.countSignup)
             }
         }
@@ -49,6 +50,7 @@ class ViewController: UIViewController {
                 self.TotalSignIn_Label.text = "TotalSignIn : " + String(self.countSignin)
             }
         }
+        
         
 
 }
